@@ -1,54 +1,5 @@
-header {
-  background: #3f3b51;
-  height: 4rem;
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin: 0 auto;
-  padding: 3rem 2.5rem;
-}
-
-header div.title {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
-header div.title > img {
-  margin-right: 1rem;
-}
-
-header div.title > span {
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-
-  color: #ffffff;
-}
-
-header div.pages {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-
-  margin-right: 5rem;
-}
-
-header div.pages > a {
-  font-size: 1.25rem;
-  font-weight: 500;
-  font-family: "Roboto";
-
-  color: #ffffff;
-
-  padding-left: 4rem;
-}
-
-header div.pages > a.active {
-  color: #78d0d3;
+.container {
+  background-image: url("../../img/background/business-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

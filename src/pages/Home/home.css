@@ -1,62 +1,7 @@
 .container {
-  background-image: url("../../img/home-background.png");
+  background-image: url("../../img/background/home-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-header {
-  background: #3f3b51;
-  height: 4rem;
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin: 0 auto;
-  padding: 3rem 2.5rem;
-}
-
-header div.title {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
-header div.title>img {
-  margin-right: 1rem;
-}
-
-header div.title>span {
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-
-  color: #ffffff;
-}
-
-header div.pages {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-
-  margin-right: 5rem;
-}
-
-header div.pages>a {
-  font-size: 1.25rem;
-  font-weight: 500;
-  font-family: "Roboto";
-
-  color: #ffffff;
-
-  padding-left: 4rem;
-}
-
-header div.pages>a.active {
-  color: #78d0d3;
 }
 
 main {
@@ -68,7 +13,7 @@ main {
 }
 
 .main-news {
-  height: 90vh;
+  height: 80vh;
   margin: 0 auto;
 
   flex: 1;
@@ -166,6 +111,63 @@ iframe {
   display: flex;
   flex-direction: row;
   padding: 10px;
+  margin-bottom: 3rem;
+
+  position: relative;
+}
+
+.secondary-news div.info-tech {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 4rem;
+  z-index: 0;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #78d0d3;
+  font-weight: 700;
+}
+
+.secondary-news div.info-science {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 6rem;
+  z-index: 0;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #78d0d3;
+  font-weight: 700;
+}
+
+.secondary-news div.info-coronavirus {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 8rem;
+  z-index: 0;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #78d0d3;
+  font-weight: 700;
 }
 
 .secondary-news-image {
