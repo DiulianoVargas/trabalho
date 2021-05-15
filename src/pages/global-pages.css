@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  height: 90vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "PT Serif";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+form {
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  width: 600px;
+  padding: 2em;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  margin-bottom: 1rem;
+}
+
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.5rem;
+
+  width: 100%;
+  padding: 0.7em 0em;
+  border-radius: 0.5rem;
+
+  font-family: "PT Serif";
+}
+
+form button {
+  background: lightgrey;
+  padding: 0.7em 4.25rem;
+  border: 0;
+  border-radius: 0.5rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "PT Serif";
+}
+
+form button:hover {
+  background: gold;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "PT Serif";
+
+  padding-right: 1rem;
+  width: 150px;
+  text-align: left;
+}
+
+input:focus {
+  outline: 3px solid gold;
+  border-radius: 0.5rem;
+}
+
+.buttons {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
