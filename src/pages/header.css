@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Inter", sans-serif;
+  background-color: #f9f9f9;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: #808e9b;
+  height: 10vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 3rem 2.5rem;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+header div.title {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+header div.title > img {
+  margin-right: 1rem;
+}
+
+header div.title > span {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "PT Serif", serif;
+
+  color: #ffffff;
+}
+
+header div.pages {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-right: 5rem;
+}
+
+header div.pages > a {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "PT Serif", serif;
+
+  color: #ffffff;
+
+  padding-left: 4rem;
+}
+
+header div.pages > a.active {
+  color: #78d0d3;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #3c40c6;
+  border-radius: 20px;
+  border: 3px solid #78d0d3;
+}
